@@ -22,7 +22,7 @@ pipeline{
             }
         }
         stage("This is stage FIVE"){
-            step{
+            steps{
             echo("This is stage five")
             }
         }
