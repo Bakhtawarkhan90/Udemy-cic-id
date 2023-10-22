@@ -21,5 +21,10 @@ pipeline{
              echo("Great stage four is completed")
             }
         }
+        stage("This is stage FIVE"){
+            step{
+            echo("This is stage five")
+            }
+        }
     }
 }
