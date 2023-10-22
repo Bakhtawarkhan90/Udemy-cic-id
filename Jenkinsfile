@@ -31,5 +31,10 @@ pipeline{
             echo("This is stage six")
             }
         }
+         stage("LAST STAGE"){
+            steps{
+            echo("whoooo congratulations")
+            }
+        }
     }
 }
