@@ -1,2 +1,1 @@
-# Udemy-cic-id
-This git repository is for Jenkins 
+# Udemy-ci
