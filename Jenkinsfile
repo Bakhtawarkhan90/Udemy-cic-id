@@ -26,5 +26,10 @@ pipeline{
             echo("This is stage five")
             }
         }
+         stage("This is stage  TESTING AUTOMATION WITH TIME"){
+            steps{
+            echo("This is stage six")
+            }
+        }
     }
 }
