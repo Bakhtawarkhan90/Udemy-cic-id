@@ -21,7 +21,7 @@ pipeline{
              echo("Great stage four is completed")
             }
         }
-        stage("This is stage FIVE"){
+        stage("This is stage LAST"){
             steps{
             echo("This is stage five")
             }
