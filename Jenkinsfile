@@ -31,9 +31,14 @@ pipeline{
             echo("This is stage six")
             }
         }
-         stage("LAST STAGE"){
+         stage("STAGE SEVEN"){
             steps{
             echo("whoooo congratulations")
+            }
+        }
+        stage("STAGE EIGHT"){
+            steps{
+             echo(auto scanning completed)   
             }
         }
     }
