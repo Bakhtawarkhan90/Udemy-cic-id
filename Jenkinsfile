@@ -31,7 +31,7 @@ pipeline{
             echo("This is stage six")
             }
         }
-         stage("LAST STAGE"){
+         stage("SECOND LAST STAGE"){
             steps{
             echo("whoooo congratulations")
             }
