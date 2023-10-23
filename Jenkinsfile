@@ -38,7 +38,7 @@ pipeline{
         }
         stage("STAGE EIGHT"){
             steps{
-             echo(auto scanning completed)   
+            echo("auto scanning completed")   
             }
         }
     }
